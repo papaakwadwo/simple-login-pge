@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family:"Poppins" Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+}
+
+body{
+    background: rgb(135, 138, 135);
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.4rem 0 0 0
+}
+input{
+    background: transparent;
+    border: none;
+    outline: 0;
+}
+button{
+    width: 50%;
+    height: 40px;
+    border: none;
+    font-size: 16px;
+    outline: 0;
+    border-radius: 1.3vh;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-box{
+    width: 70vw;
+    height: 80vh;
+    background: #fff;
+    border-radius: 3vh;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form{
+    /* border: 10px dashed #f00; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    width: 50%;
+}
+
+.form .welcome-text{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    justify-content: center;
+    width: 100%;
+}
+
+.form .welcome-text h1{
+    font-size: 7em;
+    font-family:"Smooch Sans", sans-serif;
+    font-weight: 700;
+}
+
+.form .welcome-text p{
+    margin-top: -20px;
+    font-size: .8em;
+}
+
+.form form{
+         display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    width: 100%;   
+}
+
+.form .input-row{
+    background: #f2f2f2;
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+    width: 50%;
+    height: 30px;
+    border-radius: .8vh;
+    gap: 6px;
+}
+
+.form .input-row input{
+   width: 100%;
+   font-size: 20px;
+}
+.form .input-row img{
+   width: 20px;
+   height: 16px;
+}
+
+.form form button{
+    background: #000;
+    color: white;
+    border: none;
+}
+.form form button:hover{
+    background: #000000f3;
+
+}
+.form button{
+    border: 1px solid black;
+}
+.form button:hover{
+    background:  rgba(172, 172, 172, 0.336);
+
+}
+
+.form button img{
+    width: 25px;
+    height: 25px;
+    margin-right: 7px;
+}
+.form button p span{
+    font-weight: bold;
+}
+
+
+.image-box{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-box img{
+    width: 100%;
+}
